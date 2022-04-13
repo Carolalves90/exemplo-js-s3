@@ -3,7 +3,7 @@
 function parImpar (numero){
     if (numero % 2 == 0){
         return 'Par'
-    } else {
+    } else if (numero % 2 != 0) {
         return 'impar'
     }
 }
