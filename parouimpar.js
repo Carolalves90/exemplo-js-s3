@@ -3,7 +3,7 @@
 function determninaParOuImpar(numero){
     if (numero % 2 == 0){
         return 'Par'
-    } else if (numero % 2 != 0) {
+    } else if (numero % 2 !== 0) {
         return 'impar'
     }
 }
